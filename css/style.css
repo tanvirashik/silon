@@ -1,0 +1,525 @@
+/* fonts start */
+@font-face {
+    font-family: DancingScript-Regular;
+    src: url(../fonts/DancingScript-Regular.otf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/* common css */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: ;
+    font-size: ;
+    color: ;
+}
+
+/* header start */
+header{
+    
+}
+.header_top{
+    padding:5px 0;
+    background-color:#fef7f6;
+}
+.ht_text span{
+    margin-right:35px;
+    font-family:Roboto-Light;
+    font-size: 12px;
+    color:#000000;
+    text-transform: uppercase;
+
+
+}
+.ht_text ul{
+    text-align:end;
+}
+.ht_text ul li{
+    margin-right:35px;
+    font-family:Roboto-Light;
+    font-size: 12px;
+    color:#000000;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.ht_text ul li:last-child{
+    margin-right:0;
+}
+/* header-top end */
+.header_bottom{
+    padding:20px 0;
+}
+.menu ul li{
+    margin-right:30px;
+}
+.menu ul li:last-child{
+    margin-right:0;
+}
+.menu ul li a{
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    color: #000000 !important;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color:#ff5353 !important;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+/* menu right*/
+.menu_right{
+
+}
+.mr{
+    margin-right:20px;
+}
+.mr:last-child{
+    margin-right:0;
+}
+.mr a{
+    color:#000000;
+    transition: 0.4s;
+}
+.mr a:hover{
+    color:#ff5353;
+}
+.menubtn{
+    color:#000000;
+    transition: 0.4s;
+}
+.menubtn:focus{
+    box-shadow: none;
+}
+.menubtn:hover{
+    color:#ff5353;
+}
+.badg{
+    background-color: #ff5353;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* banner start */
+.banner{
+    background-image: url(../img/bg-1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerText{
+    padding:20% 0;
+}
+.bannerText h4{
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    color:#565656;
+}
+.title{
+    font-family: Roboto-Medium;
+    font-size: 60px;
+    color:#222222;
+}
+.bbtn{
+    margin-top:40px;
+    padding:15px 50px;
+    font-family:Roboto-Medium;
+    font-size:14px;
+    color:#fff;
+    background-color: #ff5353;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.bbtn:hover{
+    color:#007bff !important;
+    background-color: #fff;
+}
+.bannerImg{
+    width:120%;
+}
+
+/* about start */
+.about{
+    padding:50px 0;
+}
+.abtitle{
+    margin-bottom:70px;
+}
+.abtitle h2{
+    font-family:Roboto-Bold;
+    font-size:36px;
+    color:#222222;
+    text-align:center;
+}
+/* overlay */
+.ab{
+    position:relative;
+}
+.ab img{
+    width:100%;
+}
+.ab_overlay{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: 0.5s;
+}
+.ab_overlay_icon{
+    position: absolute;
+    right:30%;
+    bottom:30%;
+}
+.ab_overlay_icon i{
+    padding:15px;
+    background-color: #fff;
+    color:#000000;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.ab_overlay_icon i:hover{
+    color:#fff;
+    background-color: #ff5353;
+}
+.ab:hover .ab_overlay{
+    opacity:1;
+}
+.ab_text{
+    margin-top:30px;
+}
+.ab_text p{
+    margin-bottom:0;
+    font-family: Roboto-Medium;
+    font-size:14px;
+    color:#888888;
+}
+.ab_text span i{
+    margin-bottom:10px;
+    font-size:12px;
+    color:#ff5353;
+}
+.ab_text h2{
+    font-family: Roboto-Medium;
+    font-size:18px;
+    color:#222222;
+}
+/* s */
+.ab:hover .ab_overlay .ab_overlay_icon i:first-child{
+    transition: 0.5s;
+}
+.ab:hover .ab_overlay .ab_overlay_icon i:nth-child(2){
+    transition: 1s;
+}
+/* e */
+
+/* banner2 start */
+.banner2{
+    background-color: #f7f2eb;
+}
+.banner2Text{
+    padding:50px 0;
+}
+.banner2title{
+    margin-bottom:20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color:#000000;
+}
+.banner2Text p{
+    font-family: Roboto-Light;
+    margin-bottom:0;
+    font-size: 32px;
+    color:#4a4a4a;
+}
+.banner2Img img{
+    width:100%;
+}
+
+/* popular start */
+.popular{
+    padding:50px 0;
+}
+
+/* featured start */
+.featured{
+    padding:50px 0;
+}
+.feat{
+    padding:25px 30px;
+    border:1px solid #dae3e8;
+}
+.feat img{
+    margin-bottom:30px;
+}
+.feat h2{
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    color:#222222;
+}
+.feat p{
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    color:#888888
+}
+/* featured end */
+
+/* product start */
+.product{
+    padding:50px 0;
+}
+
+/* blog start */
+.blog{
+    padding:50px 0;
+}
+.blog_content{
+
+}
+.blog_content_text{
+    margin-top:30px;
+}
+.blog_content img{
+    width:100%;
+}
+.blog_content p{
+    margin-left:10px;
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    color:#888888;
+    display: inline;
+    transition: 0.4s;
+}
+.blog_content p:hover{
+    color:#ff5353;
+}
+.arrow{
+    width:15px;
+    height:7px;
+    display: inline-block;
+    background-color: #ff5353;
+}
+.blog_content_text h2{
+    margin-top:10px;
+    margin-bottom:20px;
+    font-family: Roboto-Bold;
+    font-size:20px;
+    color:#222222;
+    transition: 0.4s;
+}
+.blog_content_text h2:hover{
+    color:#ff5353;
+}
+.bhr{
+    margin-bottom:20px;
+    width:100%;
+    height:2px;
+    background-color: #dae3e8;
+}
+.box i{
+    margin-right:20px;
+    font-size:14px;
+    color:#888888;
+    transition: 0.4s;
+}
+.rr{
+    margin-left:30px;
+}
+
+/* instragam start */
+.instragam{
+    padding:50px 0;
+}
+.insta{
+    position: relative;
+}
+.insta img{
+    width:100%;
+}
+.insta_overlay{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    background-color: rgba(255, 83, 83, 0.7);
+    opacity: 0;
+    transition: 0.4s;
+}
+.insta_overlay_icon{
+    position: absolute;
+    top:45%;
+    right:45%;
+    font-size:30px;
+    color:#fef7f6;
+}
+.insta_overlay:hover, .insta_overlay_icon{
+    opacity: 1;
+}
+
+/* footer start */
+footer{
+    background-color: #E9E2D8;
+}
+.footer_top{
+    padding:80px 0;
+}
+.foot{
+
+}
+.ftitle{
+    margin-bottom:25px;
+    font-family:Roboto-Bold;
+    font-size:16px;
+    color:#222222;
+    text-transform: uppercase;
+}
+.foot ul li{
+    display: block;
+}
+.foot ul li a{
+    margin-bottom:7px;
+    font-family: Roboto-Medium;
+    font-size:16px;
+    color:#888888;
+    line-height:30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.4s;
+}
+.foot ul li a:hover{
+    color:#ff5353;
+}
+.footText h2{
+    margin-bottom:25px;
+    font-family:Roboto-Bold;
+    font-size:16px;
+    color:#222222;
+    text-transform: uppercase;
+}
+.appbt{
+    width:100%;
+}
+.appBtn{
+    padding:10px 5px;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.appBtn:hover{
+    color:#fff;
+    background-color: #ff5353;
+}
+.google_app i{
+    font-size:20px;
+    color:#ff5353;
+}
+.google_app i:hover{
+    color:#fff;
+}
+.google_app_text p{
+    margin-bottom:0;
+    font-family: Roboto-Regular;
+    font-size:10px;
+    color:#888888;
+}
+.google_app_text p:hover{
+    color:#fff;
+}
+.google_app_text h4{
+    margin-bottom:0;
+    font-family: Roboto-Medium;
+    font-size:13px;
+    color:#222222;
+    line-height:10px;
+}
+.google_app_text h4:hover{
+    color:#fff;
+}
+.apleBtn{
+    padding:10px 5px;
+    background-color: #ff5353;
+    transition: 0.4s;
+}
+.w i{
+    font-size:20px;
+    color:#fff;
+}
+.w p{
+    color:#fff;
+}
+.w h4{
+    color:#fff;
+}
+.hrrr{
+    margin:30px 0;
+    width:100%;
+    height:1px;
+    background-color: #888888;
+}
+.footText h3{
+    margin-bottom:20px;
+    font-family:Roboto-Bold;
+    font-size:16px;
+    color:#222222;
+}
+.footer_socile{
+
+}
+.footer_socile i{
+    margin-right:10px;
+    padding:10px;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.footer_socile i:hover{
+    background-color: #ff5353;
+    color:#fff;
+}
+
+.footer_bottom{
+
+}
+.fthr{
+    padding:20px 0;
+    border-top:1px solid #888888;
+}
+.fthr p{
+    text-align:center;
+    font-family: Roboto-Medium;
+    font-size:14px;
+    color:#888888;
+}
+.aa{
+    right: 20%;
+    bottom: 40%;
+}
